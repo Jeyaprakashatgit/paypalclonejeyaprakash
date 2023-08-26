@@ -1,0 +1,266 @@
+body{
+  margin: 0;
+  font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+}
+nav{
+  height: 72px;
+  width: 100vw;
+  display: flex;
+  /* background-color: black; */
+}
+
+.logo-pic{
+  height: 43px;
+  width: 136px;
+  
+}
+.logodiv{
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: 170px;
+}
+.naflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 40px;
+  border-bottom: 4px solid white;
+}
+.naflex:hover{
+  border-bottom: 4px solid #02387b;
+}
+.naflex p{
+  color: #2c2e2f;
+  font-size: 13px;
+  font-weight:545;font-weight: 550;
+  /* filter: contrast(500%); */
+}
+.login{
+  text-decoration: none;
+  color: #0070ba;
+  border: 1px solid #0070ba;
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  height: 18px;
+  margin-top:16px ;
+  border-radius: 20px;
+  margin-left: 100px;
+ 
+}
+.signup{
+  text-decoration: none;
+  background-color: #0070ba;
+  /* border: 1px solid #0070ba; */
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  height: 21px;
+  margin-top:16px ;
+  border-radius: 20px;
+  color: white;
+  margin-left: 17px;
+}
+.videocontainer{
+  width: 1519px;
+  height: 600px;
+
+}
+#video-background{
+  height: 600px;
+  width: 1519px;
+  object-fit: cover;
+  margin: 0;
+}
+.pdiv{
+  width: 699px;
+  height: 97px;
+  text-align: center;
+  margin: 80px auto;
+  font-size: 18px;
+  font-weight:600;
+
+}
+.btn1{
+  width: 300px;
+  height: 45px;
+  background-color: white;
+  color: #0d3685;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+}
+
+
+.videocontainer {
+  position: relative;
+ 
+ 
+ 
+}
+
+
+
+.content {
+  position: absolute;
+  top: 40px;
+  font-size: 38px;
+  margin-left: 400px;
+
+  width: 699px;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+.businessdiv{
+  width:1619px;
+  height: 140px;
+  background-color: #02387b;
+  margin: -26px;
+  border: none;
+  text-align: center;
+  padding-top: 20px;
+}
+.businessdiv p{
+  font-size: 24px;
+  color: white;
+}
+.busbtn{
+  width: 180px;
+  height: 49px;
+  background-color: white;
+  color: #0d3685;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+}
+.flexcontainer{
+/* width: 100vh; */
+width: 1619px;
+height: 440px;
+padding-left: 200px;
+display: flex;
+gap: 200px;
+background-color: #f5f7fa;
+margin-top: 26px;
+
+}
+.leftdiv{
+  width: 536px;
+  height: auto;
+  padding-top: 100px;
+}
+.firstpara{
+  font-size: 40px;
+  color: #00a8ea;
+}
+.secondpara{
+  font-size: 16px;
+}
+.shopnowbtn{
+  color: #0070ba;
+  border: 1px solid #0070ba;
+ padding: 15px 120px;
+  font-size: 15px;
+  font-weight: 550;
+  margin-top:15px ;
+  border-radius: 20px;
+  background-color: white;
+  
+ 
+}
+.rightdiv{
+  padding-top: 100px;
+  height: 350px;
+  width: 350px;
+  /* background-image: url(shopping.png);
+  object-fit: contain;*/
+  
+} 
+.sponsor{
+  width: 1619px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.sponsor p{
+  font-size: 40px;
+  color: #00a8ea;
+}
+.tflex img{
+width: 113px;
+height: 34px;
+object-fit: cover;
+margin-right:20px ;
+
+}
+.bluecontainer{
+  background-color: #00a8ea;
+  height: 350px;
+  text-align: center;
+  padding-top: 40px;
+}
+.bluecontainer p{
+  font-size: 32px;
+  width: 891px;
+  margin-left: 300px;
+ color: white;
+}
+.btn5{
+  width: 350px;
+  height: 45px;
+  background-color: white;
+  color: #0d3685;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+}
+.number{
+  width: 62px;
+  height: 68px;
+  font-size: 40px;
+  background-color: white;
+  border-radius: 25px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.numberflex{
+  display: flex;
+  gap: 5px;
+  margin-left: 450px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.tc{
+  width: 1096px;
+  height: auto;
+  background-color: white;
+  margin-left: 200px;
+}
+.helpdiv{
+  display: flex;
+  gap: 20px;
+  margin-top: 100px;
+}
+.help{
+  font-weight: 600;
+  font-size: 14px;
+}
+.desc{
+  font-size: 12px;
+  color: gray;
+}
+span{
+ color:  #00a8ea;
+ text-decoration: underline;
+}
+.ft{
+  font-size: 14px;
+  line-height: 10px;
+  margin-top: 40px;
+}

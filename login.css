@@ -1,0 +1,102 @@
+body{
+  /* margin: 0; */
+  font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+}
+.container{
+  margin: 100px auto;
+  width: 367px ;
+  height:460px;
+  border: 1px solid rgb(222, 222, 222);
+padding: 30px;
+border-radius: 5px;
+}
+input{
+  height: 60px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 100%;
+  color: #6c7378;
+  padding-left: 10px;
+  box-sizing: border-box;
+
+}
+.forgot{
+ font-size: 18px;
+ color: #1072eb;
+ font-weight: 600; 
+}
+.logo{
+  width: 34px;
+  height: 40px;
+  
+}
+.logocon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.bluebtn{
+  width: 100%;
+  height: 48px;
+   border-radius: 25px;
+   border: none;
+   color: white;
+   background-color: #142c8e;
+   font-size: 18px;
+   border-radius: 25px;
+}
+.pdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pdiv p{
+  font-size: 15px;
+  color: #6c7378;
+}
+.signupbtn{
+  height:48px;
+  width: 100%;
+  color: #142c8e;
+  border: 1px solid #142c8e;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 550;
+  border-radius: 25px;
+}
+span{
+ 
+  border: 1px solid black;
+  width: 1px;
+  height: 1px;
+}
+.flagdiv{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+.flagdiv img{
+  /* height: 12px; */
+  width: 20px;
+  opacity: 0.6;
+  
+}
+.fl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.down{
+  font-size: 10px;
+  color: #666666;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -85px;
+}
